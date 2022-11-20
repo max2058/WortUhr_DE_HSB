@@ -1,0 +1,1 @@
+Bei meinen Layouts habe ich die Schriftart '84Lucida-Console' selbst angepasst und "erweitert" um eine Laserbare bzw Plottbare Schriftart zu haben. "Lucida-Console" sieht ganz cool aus, ist im Original aber keine "Standsbare" Schriftart..}
