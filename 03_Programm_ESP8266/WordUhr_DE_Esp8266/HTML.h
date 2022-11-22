@@ -142,12 +142,12 @@ const char LoginHTML[] =  R"(<!DOCTYPE html>
       
     </style>
     
-    <title>WordUhr</title>
+    <title>WortUhr</title>
 </head>
 <body class="background">
 
     <div class="header">
-        <h2>WordUhr / WordClock</h2>
+        <h2>WortUhr / WordClock</h2>
     </div>
 
     <div class="container">
@@ -235,7 +235,7 @@ const char LoginHTML[] =  R"(<!DOCTYPE html>
             </div>
 
             <div class="info">
-                Die Daten werden unverschlüsselt an die WordUhr übertragen.
+                Die Daten werden unverschlüsselt an die WortUhr übertragen.
             </div>
     
         </form>
@@ -272,7 +272,7 @@ const char NotFoundHTML[] =  R"(<!DOCTYPE html>
 
     <div class="header">
         <h2>404 Not Found</h2>
-        <p>Die WordUhr ist verwirrt und kann deine Anfrage leider nicht beantworten.</p>
+        <p>Die WortUhr ist verwirrt und kann deine Anfrage leider nicht beantworten.</p>
     </div>
 
 </body>
@@ -304,7 +304,7 @@ const char SavedHTML[] =  R"(<!DOCTYPE html>
 
     <div class="header">
         <h2>Fast geschafft!</h2>
-        <p>Du musst die WordUhr nur noch neu starten.</p>
+        <p>Du musst die WortUhr nur noch neu starten.</p>
     </div>
 
 </body>
