@@ -13,6 +13,7 @@
  * + Ergänzung Ost-Variante ("viertel vor" vs. "dreiviertel") User kann bei Inbetriebnahme (über DNS Server) auswahl treffen.
  * 
  * 
+ *
 */
 
 //Externe Bibliotheken
