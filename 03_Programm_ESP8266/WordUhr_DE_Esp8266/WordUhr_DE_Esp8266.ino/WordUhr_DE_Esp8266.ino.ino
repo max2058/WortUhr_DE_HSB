@@ -1,6 +1,6 @@
 /*
  * Projekt: Wordclock
- * Version: 1.3.0.2
+ * Version: 1.3.0.3
  * Datum: 22.11.2022
  * Autor: Auerbach Maximilian - max.auerbach@gmx.net  
  * 
@@ -14,7 +14,6 @@
  * 
  * 
 */
-
 
 //Externe Bibliotheken
 #include <ESP8266WiFi.h>
