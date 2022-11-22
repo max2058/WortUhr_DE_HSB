@@ -1,7 +1,7 @@
 /*
- * Projekt: Wordclock
- * Version: 1.3.0.3
- * Datum: 22.11.2022
+ * Projekt: WortUhr / WordClock
+ * Version: 1.3.0.4
+ * Datum: 23.11.2022
  * Autor: Auerbach Maximilian - max.auerbach@gmx.net  
  * 
  * Changelog:
@@ -58,12 +58,12 @@ const uint16_t Pin = D6;
 
 //Zugangsdaten Access Point
 //SSID
-const char SSID_AccessPoint[] = "WordUhr";
+const char SSID_AccessPoint[] = "WortUhr";
 //Passwort
-const char Password_AccessPoint[] = "worduhr123";
+const char Password_AccessPoint[] = "wortuhr123";
 //URL DNS Server
-//www.worduhr.local
-const char WebserverURL[] = "www.worduhr.local";
+//www.wortuhr.local
+const char WebserverURL[] = "www.wortuhr.local";
 
 //***************************************************************************************************************************
 //******************************************* FARBWERTE UND HELLIGKEIT DER LED's ********************************************
