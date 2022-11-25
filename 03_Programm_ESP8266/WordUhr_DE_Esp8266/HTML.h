@@ -153,10 +153,10 @@ const char LoginHTML[] =  R"(<!DOCTYPE html>
     <div class="container">
 
     <div class="header2">
-        <h3>Version 1.3.0.2 - 2022-11-22 - Auerbach Maximilian</h3>
+        <h3>Version 1.3.0.5 - 2022-11-23 - Auerbach Maximilian</h3>
     </div>
     
-        <h2>+++Erstinbetriebnahme+++</h2>
+        <h2>Erstinbetriebnahme</h2>
 
         <form action="/refresh" method="post">
 
@@ -180,7 +180,7 @@ const char LoginHTML[] =  R"(<!DOCTYPE html>
             </div>
 
             <div class="refresh">
-                <input type="submit" value="REFRESH">
+                <input type="submit" value="AKTUALISIEREN">
             </div>
 
 
@@ -231,7 +231,7 @@ const char LoginHTML[] =  R"(<!DOCTYPE html>
             </div>
                 
             <div class="save">
-                <input type="submit" value="SAVE">
+                <input type="submit" value="SPEICHERN & BEENDEN">
             </div>
 
             <div class="info">

@@ -1,6 +1,6 @@
 /*
  * Projekt: WortUhr / WordClock
- * Version: 1.3.0.4
+ * Version: 1.3.0.5
  * Datum: 23.11.2022
  * Autor: Auerbach Maximilian - max.auerbach@gmx.net  
  * 
@@ -9,9 +9,9 @@
  * - Fehler Stundenzahl erhöhen ab HALB
  * - Fehler Dimmwert für BLAU berechnen
  * - Fehler Sonderfall EIN/EINS
+ * - Fehler Issue #2 unklare sporadische Zerstörung des ESP8266. (siehe GitHub)
  * --- Neuerungen
  * + Ergänzung Ost-Variante ("viertel vor" vs. "dreiviertel") User kann bei Inbetriebnahme (über DNS Server) auswahl treffen.
- * 
  * 
  *
 */
@@ -429,18 +429,18 @@ void setup() {
 
     //Testdurchlauf => alle LEDs nacheinander einschalten
     for (i = ersteLED; i <= letzteLED; i++) {
-      pixels.setPixelColor(i, pixels.Color(Parameter.RGBValueRed, Parameter.RGBValueGreen, Parameter.RGBValueBlue));
+      pixels.setPixelColor(i, pixels.Color(8, 8, 8));
       pixels.show();
-      delay(50);
+      delay(30);
     }
 
-    delay(1000);
+    delay(400);
 
     //Testdurchlauf => alle LEDs umgekehrt ausschalten
     for (i = letzteLED; i >= ersteLED; i--) {
       pixels.setPixelColor(i, pixels.Color(0, 0, 0));
       pixels.show();
-      delay(50);
+      delay(30);
     }
 
     //Ende: Test alle LEDs bei Neustart der Uhr
