@@ -1,7 +1,9 @@
 /*
- * Projekt: WortUhr / WordClock
- * Version: 1.3.0.5
- * Datum: 23.11.2022
+ * Projekt: WortUhr / WordClock 
+ * Ersterstellung: 10.01.2022
+ *
+ * Version: 1.3.0.6
+ * Aenderungsdatum: 26.12.2022
  * Autor: Auerbach Maximilian - max.auerbach@gmx.net  
  * 
  * Changelog:
