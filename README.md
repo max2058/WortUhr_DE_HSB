@@ -1,4 +1,4 @@
-# WordUhr / WordClock
+# WortUhr / WordClock
 
 Projekt Wortuhr.... Text
 
